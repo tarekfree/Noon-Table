@@ -1,0 +1,47 @@
+*{
+    padding:0;
+    margin:0;
+}
+tbody{
+    background-color: rgb(12, 238, 65);
+    color: #fff;
+}
+td{
+    padding: 10px 20px;
+    text-align: center;
+}
+.one{
+    background-color: yellow;
+}
+.two{
+    background-color: yellowgreen;
+}
+.three{
+    background-color: orange;
+}
+.four{
+    background-color: rgb(255, 0, 149);
+}
+h1{
+    background-color: red;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 115px;
+}
+.draw{
+    margin: 20px;
+}
+.draw a{
+    text-decoration: none;
+    background-color: blueviolet;
+    padding: 10px 20px;
+    color: #fff;
+    border-radius: 15px;
+    box-shadow: 5px 7px 15px #333;
+}
+td:hover{
+    background-color: aquamarine;
+    transition: 2s;
+    color: #333;
+    transform: rotate(360deg);
+}
